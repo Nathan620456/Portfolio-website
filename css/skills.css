@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(0, 0, 128);
+}
+
+header img{
+    width: 50%;
+    height: auto;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+main h2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(124, 252, 0);
+}
+
+
+
+.image-container {
+    display: flex;
+  }
+  
+  .image-container img {
+    width: 100px;
+    height: auto;
+  }
+  
+
+  .html {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  .python {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  .css {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  .javascript {
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+
+  footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+footer nav a {
+    text-decoration: none;
+    font-size: 100px;
+   
+  }
+
+footer nav a{
+    text-decoration: none;
+    font-size: 100px;
+    color:rgb(124, 252, 0);
+}
+
+#link:hover {
+    color:rgb(53, 94, 59);
+}
+
+@media only screen and (max-width: 600px) {
+    .about-me-container {
+      flex-direction: column;
+    }
+  }
+  

@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(123, 63, 0);
+}
+
+header img{
+    width: 50%; /*This stretches the image across the viewport*/
+    height: auto; /*This wil change the height of the image based on the size of the viewport*/
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    margin-bottom: 1em; /*makes space between each elements*/
+    font-weight: bold;
+    text-align: center;
+} 
+
+nav ul {
+    padding: 0;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+nav ul li {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0.75em;
+    list-style-type: none; /*removes bullet points*/
+    display: inline-block;
+    margin-top: -50px;
+    font-size: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: darkorchid;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+main p {
+    font-weight: bold;
+    font-size: 50px;
+    text-align:center;
+    color: magenta;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-me-container {
+      flex-direction: column;
+    }
+  }
+  

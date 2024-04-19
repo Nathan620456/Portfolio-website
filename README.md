@@ -3,3 +3,5 @@ This website contains some html files, css files only one javascript file becaus
 This website was just for a project to do and I believe I have completed it. 
 
 If anyone knows what to do to make the javascript activate on the google webpage then go ahead and make the changes necsessary to do so as long as all the previous content is still on the files.
+
+Chnaged type of script tag but didn't work.

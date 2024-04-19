@@ -74,7 +74,7 @@ footer nav a{
 }
 
 #link:hover {
-    color: 'red';
+    color: red;
 }
 
 @media only screen and (max-width: 600px) {

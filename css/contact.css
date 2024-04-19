@@ -73,6 +73,10 @@ footer nav a{
     font-size: 100px;
 }
 
+/*#link:hover {
+    color: 'red';
+}*/
+
 @media only screen and (max-width: 600px) {
     .about-me-container {
       flex-direction: column;

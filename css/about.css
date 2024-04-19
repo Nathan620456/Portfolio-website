@@ -51,13 +51,9 @@ footer {
   footer nav a {
     text-decoration: none;
     font-size: 100px;
-    color: rgb(0, 0, 255);
   }
 
   
-  #link:hover {
-    color: red; /*Change the color when the link is hovered*/
-  }
   
   @media only screen and (max-width: 600px) {
     .about-me-container {

@@ -1,7 +1,3 @@
-let mailChange = document.getElementById('email');
-
-function changeEmailTextColor() {
-    mailChange.style.color = 'blue';
+document.getElementById('link').onmouseover = function() {
+    this.style.color = 'red';
 };
-
-mailChange.addEventListener('mouseover', changeEmailTextColor);
